@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body{
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+div.image{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+button{
+  height: 20px;
+  width: 125px;
+  margin-top: 10px;
+}
+
+div.predictions{
+  width:100px;
+  margin-top: 15px;
+  border: 1px dotted blue;
+  text-align: center;
+}
+
+#img-preview {
+  display: none; 
+  width: 155px;   
+  border: 2px dashed #333;  
+  margin-bottom: 20px;
+}
+#img-preview img {  
+  width: 100%;
+  height: auto; 
+  display: block;   
+}
+
