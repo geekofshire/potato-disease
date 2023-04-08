@@ -1,0 +1,3 @@
+import os
+list=os.listdir('../potato-disease/models/3')
+print(list)
